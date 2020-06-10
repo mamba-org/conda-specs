@@ -24,7 +24,7 @@ Currently, the potential subdirs are:
 ### Keys in repodata.json
 
 |      key       |            type            |                                    meaning                                     |
-+----------------+----------------------------+--------------------------------------------------------------------------------+
+| -------------- | -------------------------- | ------------------------------------------------------------------------------ |
 | info           | [dict]                     | metadata, usually one key (subdir)                                             |
 | packages       | [dict[string => packages]] | dict with all old-style packages (tar.bz2), dictionary key is package filename |
 | conda.packages | [dict[string => packages]] | dict with all new-style packages (conda)                                       |
@@ -36,7 +36,7 @@ Currently, the potential subdirs are:
 The metadata for each package consists of the following fields:
 
 |      key       |        type        |                              meaning                               |
-+----------------+--------------------+--------------------------------------------------------------------+
+| -------------- | ------------------ | ------------------------------------------------------------------ |
 | name           | [string]           | name of the package                                                |
 | version        | [string]           | version of the package                                             |
 | build          | [string]           | build hash of the package                                          |
